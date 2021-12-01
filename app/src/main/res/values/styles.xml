@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titulo">
+        <item name="android:layout_width">253dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginStart">79dp</item>
+        <item name="android:layout_marginTop">37dp</item>
+        <item name="android:layout_marginEnd">79dp</item>
+        <item name="android:layout_marginBottom">614dp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextoEntrada">
+        <item name="android:layout_width">249dp</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:backgroundTint">#3F51B5</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="botonSistema">
+        <item name="android:layout_width">148dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="caja1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">#3649B6</item>
+    </style>
+
+
+    <style name="cajaclave" parent="caja1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+
+    <style name="boton">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#F1E5E5</item>
+    </style>
+
+    <style name="botoncrud" parent="boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+
+</resources>
